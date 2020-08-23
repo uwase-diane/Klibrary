@@ -1,0 +1,202 @@
+body{
+    font-family:"Montserrat";
+}
+/*title*/
+
+#title{
+    background-color:#fff2bd;
+    margin:20px;
+    
+    
+}
+h3{
+    font-family: "Montserrat-black";
+    font-size: 2rem;
+    
+}
+#book-club{
+    background-color:#fff2bd;
+    margin:20px;
+    margin-top:10px;
+}
+h5{
+    color: #fff;
+    font-family: "Archivo Black";
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+h1{
+    color:#f0421d;
+    font-family: "Archivo Black";
+    font-size: 2rem;
+    line-height: 1.5;
+   
+    padding:40px;
+}
+
+.container-fluid{
+    padding: 3% 5% 1%;
+}
+
+  .title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+  }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff2bd;
+}
+li{
+    float:right;
+}
+li a {
+    display: block;
+    color:#ffffff;
+    text-align: left;
+    padding:14px 16px;
+    text-decoration:none;
+    font-family: Open sans Light;
+}
+li a:hover, .button-box:hover{
+    background-color: brown;
+}
+.image1{
+    display: block;
+    margin: 0 auto 0 auto;
+    width:50%;
+    
+}
+h3{
+    font-family: "open sans Extra Bold";
+    font-size:2rem;
+    line-height: 1.5;
+    color: #f0421d;
+    text-align: center;
+}
+h4{
+   color: #f9ab84;
+   font-family: Now;
+   text-align: center;
+}
+.abouts{
+    display: flex;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+
+}
+#about{
+    padding: 2% 4%;
+    margin:20px;
+    
+}
+.abouts-box{
+    text-align: center;
+    padding:50px;
+    font-family: "open sans Extra Bold";
+    font-size:1rem;
+}
+#testimonials{
+    padding:0% 1%;
+    text-align:center;
+    background-color: #fff2bd;
+    margin:20px;
+    color:#767070;
+    
+    
+}
+.testimonial-image{
+     width: 5%;
+     border-radius: 100%;
+     margin:20px;
+}
+.testimonial{
+    display: flex;
+    text-align: center;
+    width:auto;
+    justify-content: center;
+}
+.authors{
+    background:#fff;
+    margin:5px;
+    margin-bottom:50px;
+    width:300px;
+    line-height: 20px;
+    position:relative;
+}
+.headers{
+    color: #f9ab84;
+    font-family: "Archivo Black";
+    margin: 30px;
+    padding:10px;
+}
+
+#footer{
+background-color: #fff2bd;
+margin:20px;
+text-align: center;
+margin-top: 10px;
+
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #fff2bd;
+    position: relative;
+    top: 50%;
+    left: 30%;    
+    box-sizing: border-box;
+    padding:30px 40px;
+    border-radius:8px;
+    text-align: center;
+   
+}
+.contact-form h1 h4{
+    margin-top: 0;
+    font-weight: 200;
+}
+.contact-box{
+    border: 1px solid rgb(236, 65, 65);
+    margin:8px 0;
+    padding-block: 12px 18px;
+    border-radius: 8px;
+}
+.contact-box label{
+    display: block;
+    text-align: left;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 14px;
+
+
+}
+.contact-box input, .contact-box textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+#contact-us{
+    margin:20px;
+}
+.button-box{
+    display: inline-block;
+    background: #f0421d;
+    padding: 14px 0;
+    color:white;
+    text-transform: uppercase;
+    width: 30%;
+    margin-top: 8px;
+    cursor: pointer;
+    text-decoration:none;
+    border-radius: 8px;
+}
